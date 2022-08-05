@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+<h1 id="title"><u>Reserva tu turno</u></h1>
+<div><p id="description">Elegí verte bien</p></div>
+</head>
+
+<body>
+<form id="survey-form">
+  <label id="name-label" for="name">Nombre <input type="name" name="name" id="name" class="form-control" placeholder="Escriba su nombre" required/></label>
+  <br>
+  <label id="email-label" for="email">Email <input type="email" name="email" id="email" class="form-control" placeholder="Escriba su email" required/></label>
+  <br>
+  <label id="number-label" for="number">Teléfono:<input  type="number"  name="number" id="number" class="form-control" minlength="8"  placeholder="Número" required/></label>
+   
+   <br>
+   <div>
+     <textarea id="survey-form" value="2">
+       </textarea>
+       <br><br>
+       <input type="checkbox" value="2"> Masajes terapéuticos
+       <br>
+       <input type="checkbox" value="2">Aparatología estética
+   </div> 
+     <label>
+       <input type="radio" name="numero" value="text"> Ondas rusas
+     </label>
+       <label>
+         <input type="radio" name="numero" value="text"> Vacuumterapia
+       </label>   
+   <br>
+   </div>   
+ <label required/>Sucursal:</label>
+<select id="dropdown">
+  <option>---</option>
+  <option>Quilmes</option>
+  <option>Bernal</option>
+  <option>Wilde</option>
+  <option>Avellaneda</option>
+</select></label> 
+</form>
+<br>
+<div id="survey-form">
+   Tipo de pago
+  <div id="dropdown">
+    <select id="dropdown">
+      <option>---</option> 
+      <option>Pago en efectivo</option> 
+      <option>Pago por transferencia</option>
+    </select>
+    <br>
+    <br>
+
+    <button id="submit" name="submit"  type="type" required/><span>Enviar</span></button>
+  </div>
+</div>
+</body>
+
+</html>
